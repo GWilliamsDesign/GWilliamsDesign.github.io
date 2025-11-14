@@ -1,0 +1,70 @@
+/* section titles within each page */
+h2 {
+    margin-top: 20px;
+}
+
+/* vert spacing between cards */
+.card {
+    margin-bottom: 15px;
+}
+
+/* more tightening */
+.card-body {
+    padding: 4px 8px;
+}
+
+/* descripive text in cards */
+.card h6 {
+    font-weight: 400;
+}
+
+/* on-page title text block */
+.content-title {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* page content block */
+.page-content {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* images on lighting page */
+.image-collection img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+@media (max-width: 768px) {
+    .image-collection img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+}
+
+/* fit image into modal popup */
+.modal img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* tighten up spacing */
+.modal-body,
+.modal-footer {
+    padding: 8px;
+}
+
+/* increase menu horz spacing */
+.nav-item .nav-link {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* make modal-xl even wider for desktop */
+@media (min-width: 768px) {
+  .modal-xl {
+    width: 90%;
+   max-width:1200px;
+  }
+}
